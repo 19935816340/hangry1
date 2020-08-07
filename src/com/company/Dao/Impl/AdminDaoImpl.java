@@ -13,7 +13,7 @@ public class AdminDaoImpl implements AdminDao {
 
     @Override
     public Admin get(String adminName,String password) {
-        String sql = "select * from admin where adminName = ? and password = ?";
+        String sql = "select * from admin where adminName = ? and password = ?;";
         Admin admin = new Admin();
         try{
             conn = JDBCUtils.getConnection();

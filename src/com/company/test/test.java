@@ -15,8 +15,8 @@ public class test {
 //        FoodDaoImpl foodDao = new FoodDaoImpl();
 //        System.out.println(foodDao.get("鲜"));
         BusinessDaoImpl businessDao = new BusinessDaoImpl();
-        Business business = new Business("456","李四家的店","葫芦岛","。。。",new BigDecimal("10"),new BigDecimal(2));
-        businessDao.add(business);
+//        Business business = new Business("456","李四家的店","葫芦岛","。。。",new BigDecimal("10"),new BigDecimal(2));
+//        businessDao.add(business);
 
 
     }
